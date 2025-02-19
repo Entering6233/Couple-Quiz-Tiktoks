@@ -1,0 +1,5 @@
+{
+  "error": "React is not defined",
+  "stack": "ReferenceError: React is not defined\n    at http://localhost:3004/bundle.js:26434:29\n    at http://localhost:3004/bundle.js:26800:3\n    at http://localhost:3004/bundle.js:27177:12",
+  "time": "2025-02-19T17:05:08.334Z"
+}

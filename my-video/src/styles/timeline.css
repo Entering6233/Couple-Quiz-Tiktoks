@@ -1,0 +1,19 @@
+.timeline-item {
+    position: relative;
+}
+
+.timeline-item.drag-over::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #007bff;
+    border-radius: 2px;
+}
+
+.timeline-item.drop-zone.drag-over {
+    border-color: #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+} 

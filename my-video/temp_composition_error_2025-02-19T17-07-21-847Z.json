@@ -1,0 +1,359 @@
+{
+  "id": "ScriptVideo",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "durationInFrames": 310,
+  "props": {
+    "script": {
+      "id": "script_1739983311960",
+      "name": "v2",
+      "components": [
+        {
+          "id": "1738466737726",
+          "durationInFrames": 45,
+          "startFrame": 150,
+          "type": "text",
+          "text": "QUIZ YOUR GIRLFRIEND",
+          "style": {
+            "fontSize": 74,
+            "color": "#000000",
+            "fontFamily": "tiktok",
+            "textAlign": "center",
+            "position": {
+              "x": 85.134375,
+              "y": 154.36406250000002
+            },
+            "blockStyle": {
+              "enabled": true
+            },
+            "backgroundColor": "#FFFFFF",
+            "textTransform": "uppercase",
+            "fontWeight": "bold",
+            "padding": "20px 40px",
+            "borderRadius": "15px",
+            "animation": {
+              "out": {
+                "type": "none",
+                "startFrame": 30,
+                "endFrame": 0
+              }
+            }
+          },
+          "track": 0,
+          "keepContent": true
+        },
+        {
+          "id": "1738466819702",
+          "durationInFrames": 45,
+          "startFrame": 150,
+          "type": "text",
+          "text": "❌LEVEL HARD❌",
+          "style": {
+            "fontSize": 51,
+            "color": "#FFFFFF",
+            "fontFamily": "tiktok",
+            "textAlign": "center",
+            "position": {
+              "x": 291,
+              "y": 328
+            },
+            "blockStyle": {
+              "enabled": true
+            },
+            "backgroundColor": "#000000",
+            "textTransform": "uppercase",
+            "fontWeight": "bold",
+            "padding": "20px 40px",
+            "borderRadius": "15px",
+            "animation": {
+              "out": {
+                "type": "none",
+                "startFrame": 30,
+                "endFrame": 0
+              }
+            }
+          },
+          "track": 1,
+          "keepContent": true
+        },
+        {
+          "id": "1738466932565",
+          "durationInFrames": 44,
+          "startFrame": 150,
+          "type": "voice",
+          "text": "QUIZ YOUR GIRLFRIEND!!!",
+          "voiceSettings": {
+            "voiceId": "21m00Tcm4TlvDq8ikWAM",
+            "stability": 0.75,
+            "similarity_boost": 0.75
+          },
+          "captionStyle": {
+            "fontSize": 85,
+            "color": "#FFFFFF",
+            "backgroundColor": "transparent",
+            "position": "bottom",
+            "customPosition": {
+              "x": 540,
+              "y": 523
+            },
+            "wordWindow": 1,
+            "textStyle": "bordered",
+            "textStroke": "2px #000000",
+            "textShadow": "-2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000, 0px -2px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 2px 0px 0 #000000",
+            "fontWeight": "900",
+            "WebkitTextStroke": "2px #000000",
+            "fontFamily": "tiktok"
+          },
+          "showCaptions": true,
+          "style": {
+            "fontSize": 40,
+            "color": "white",
+            "fontFamily": "Arial",
+            "textAlign": "center"
+          },
+          "track": 2,
+          "audioUrl": "http://localhost:3005/generated/generated_20250202_033146.mp3",
+          "keepContent": true,
+          "wordTimings": [
+            {
+              "end": 0.42,
+              "start": 0,
+              "word": "Quiz"
+            },
+            {
+              "end": 0.64,
+              "start": 0.42,
+              "word": "your"
+            },
+            {
+              "end": 0.96,
+              "start": 0.64,
+              "word": "girlfriend."
+            }
+          ]
+        },
+        {
+          "id": "1738608938636",
+          "durationInFrames": 150,
+          "startFrame": 150,
+          "type": "image",
+          "imageUrl": "rounded-d560b7cb-169d-4b94-98c2-e0fc83837708.png",
+          "style": {
+            "width": 400,
+            "height": 400,
+            "scale": 1.7,
+            "rotation": 0,
+            "opacity": 1,
+            "border": {
+              "enabled": true,
+              "color": "#000000",
+              "width": 3
+            },
+            "dropShadow": {
+              "enabled": true,
+              "color": "#ff0000",
+              "blur": 16,
+              "spread": 0,
+              "x": 0,
+              "y": 4
+            },
+            "cornerRadius": {
+              "enabled": true,
+              "isUniform": true,
+              "value": 53,
+              "topLeft": 53,
+              "topRight": 53,
+              "bottomLeft": 53,
+              "bottomRight": 53
+            },
+            "position": {
+              "x": 348,
+              "y": 1010
+            }
+          },
+          "track": 3,
+          "animation": {
+            "in": {
+              "type": "slide-up",
+              "startFrame": 0,
+              "endFrame": 20
+            },
+            "out": {
+              "type": "fade",
+              "startFrame": 120,
+              "endFrame": 150
+            }
+          },
+          "keepContent": true
+        },
+        {
+          "id": "1738610231452",
+          "durationInFrames": 150,
+          "startFrame": 150,
+          "type": "audio",
+          "audioUrl": {
+            "addedAt": "2025-02-03T19:17:21.465493",
+            "format": "mp3",
+            "name": "whoosh_1.mp3",
+            "url": "http://localhost:3005/effects/whoosh_1.mp3"
+          },
+          "style": {
+            "volume": 1,
+            "loop": false,
+            "startTime": 0
+          },
+          "track": 4,
+          "keepContent": true
+        },
+        {
+          "id": "1738610320616",
+          "durationInFrames": 116,
+          "startFrame": 194,
+          "type": "voice",
+          "text": "SEND THIS TO HER AND IF SHE GETS TWO WRONG SHE OWES YOU A 20 MINUTE BACK RUB!!!",
+          "voiceSettings": {
+            "voiceId": "21m00Tcm4TlvDq8ikWAM",
+            "stability": 0.75,
+            "similarity_boost": 0.75
+          },
+          "captionStyle": {
+            "fontSize": 24,
+            "color": "#FFFFFF",
+            "backgroundColor": "transparent",
+            "position": "bottom",
+            "wordWindow": 1,
+            "textStyle": "bordered",
+            "textStroke": "4px #000000",
+            "textShadow": "-4px -4px 0 #000000, 4px -4px 0 #000000, -4px 4px 0 #000000, 4px 4px 0 #000000, 0px -4px 0 #000000, 0px 4px 0 #000000, -4px 0px 0 #000000, 4px 0px 0 #000000",
+            "fontWeight": "900",
+            "WebkitTextStroke": "4px #000000"
+          },
+          "showCaptions": true,
+          "style": {
+            "fontSize": 40,
+            "color": "white",
+            "fontFamily": "Arial",
+            "textAlign": "center"
+          },
+          "track": 2,
+          "audioUrl": "http://localhost:3005/generated/generated_20250203_192052.mp3",
+          "wordTimings": [
+            {
+              "end": 0.42,
+              "start": 0,
+              "word": "Send"
+            },
+            {
+              "end": 0.62,
+              "start": 0.42,
+              "word": "this"
+            },
+            {
+              "end": 0.72,
+              "start": 0.62,
+              "word": "to"
+            },
+            {
+              "end": 0.94,
+              "start": 0.72,
+              "word": "her"
+            },
+            {
+              "end": 1.12,
+              "start": 0.94,
+              "word": "and"
+            },
+            {
+              "end": 1.22,
+              "start": 1.12,
+              "word": "if"
+            },
+            {
+              "end": 1.38,
+              "start": 1.22,
+              "word": "she"
+            },
+            {
+              "end": 1.6,
+              "start": 1.38,
+              "word": "gets"
+            },
+            {
+              "end": 1.84,
+              "start": 1.6,
+              "word": "too"
+            },
+            {
+              "end": 2.06,
+              "start": 1.84,
+              "word": "wrong"
+            },
+            {
+              "end": 2.26,
+              "start": 2.06,
+              "word": "she"
+            },
+            {
+              "end": 2.4,
+              "start": 2.26,
+              "word": "owes"
+            },
+            {
+              "end": 2.58,
+              "start": 2.4,
+              "word": "you"
+            },
+            {
+              "end": 2.7,
+              "start": 2.58,
+              "word": "a"
+            },
+            {
+              "end": 2.9,
+              "start": 2.7,
+              "word": "20"
+            },
+            {
+              "end": 3.12,
+              "start": 2.9,
+              "word": "minute"
+            },
+            {
+              "end": 3.44,
+              "start": 3.12,
+              "word": "back"
+            },
+            {
+              "end": 3.6,
+              "start": 3.44,
+              "word": "rub."
+            }
+          ],
+          "keepContent": true
+        }
+      ],
+      "settings": {
+        "defaultTextStyle": {
+          "fontSize": 40,
+          "color": "white",
+          "fontFamily": "Arial",
+          "textAlign": "center"
+        },
+        "defaultCaptionStyle": {
+          "fontSize": 24,
+          "color": "white",
+          "fontFamily": "Arial",
+          "textAlign": "center"
+        },
+        "background": {
+          "type": "image",
+          "url": "http://localhost:3002/backgrounds/pink%20flowers.jpg",
+          "filePath": "pink flowers.jpg"
+        },
+        "fps": 30,
+        "preserveBackground": true
+      }
+    }
+  }
+}
