@@ -71,11 +71,3 @@ backups/
 
 
 # Explicitly include these directories
-!server/
-!server/src/
-!server/src/services/
-!server/src/services/*/
-!server/src/services/*/*.py
-!server/src/services/*/*/*.py
-!server/src/public/
-!server/requirements.txt 
